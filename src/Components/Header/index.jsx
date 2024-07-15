@@ -15,7 +15,6 @@ function Navbar() {
         </li>
         <li>
           <Button className='hero-button' text="Contact Me" />
-          
         </li>
       </ul>
     </nav>

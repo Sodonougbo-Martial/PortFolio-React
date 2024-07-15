@@ -7,12 +7,14 @@ import About from './Components/Page/About';
 import Contact from './Components/Page/Contact';
 import Button from './Components/Button';
 import Hero from './Components/Hero';
+import Projects from './Components/Project';
+import Skills from './Components/Skills';
+import Fouter from './Components/Fouter';
+
 
 function App() {
   return (
     <div className="App">
-      
-
       <Router>
       <Header />
         <Routes>
@@ -23,6 +25,10 @@ function App() {
       </Router>
 
       <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      <Fouter />
 
       <Button text="Submit" />
 

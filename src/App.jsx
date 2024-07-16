@@ -5,11 +5,11 @@ import Header from './Components/Header';
 import Home from './Components/Page/Home';
 import About from './Components/Page/About';
 import Contact from './Components/Page/Contact';
-import Button from './Components/Button';
 import Hero from './Components/Hero';
-import Projects from './Components/Project';
 import Skills from './Components/Skills';
+import Realisation from './Components/Realisation';
 import Fouter from './Components/Fouter';
+
 
 
 function App() {
@@ -26,11 +26,9 @@ function App() {
 
       <Hero />
       <About />
-      <Projects />
+      <Realisation />
       <Skills />
       <Fouter />
-
-      <Button text="Submit" />
 
     </div>
   );

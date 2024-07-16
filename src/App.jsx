@@ -9,7 +9,9 @@ import Hero from './Components/Hero';
 import Skills from './Components/Skills';
 import Realisation from './Components/Realisation';
 import Fouter from './Components/Fouter';
-
+import Projects from './Components/Page/Projects';
+import SealAll from './Components/See-All';
+import TitleProject from './Components/Title-Project';
 
 
 function App() {
@@ -19,16 +21,24 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/About" component={About} />
           <Route path="/contact" component={Contact} />
         </Routes>
       </Router>
 
       <Hero />
       <About />
+      <TitleProject />
       <Realisation />
+      <SealAll />
       <Skills />
       <Fouter />
+      
+      <Contact />
+
+      <Projects />
+
+      
 
     </div>
   );

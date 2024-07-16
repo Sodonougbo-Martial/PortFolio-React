@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Button from '../Button';
 import './styles.css'; 
 
+
+
 function Navbar() {
   return (
     <nav className="navbar">
@@ -11,7 +13,7 @@ function Navbar() {
 
       <ul className="nav-links">
         <li>
-          <Link to="/about">About</Link>
+          <Link to="../Page/Projects"> Projects </Link>
         </li>
         <li>
           <Button className='hero-button' text="Contact Me" />

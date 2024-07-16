@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import Button from '../Button';
 import BoxProject from '../BoxProject';
 
 
@@ -24,7 +23,7 @@ function Realisation() {
   
     return (
       <div className="realisation">
-        <p className="realisation-p1">Projects</p>
+        
 
         <div className='realisation-content'>
             {realisation.map((project, index) => (
@@ -37,8 +36,6 @@ function Realisation() {
             />
             ))}
         </div>
-
-        <Button className='realisation-btn-see-all' text="SEE ALL PROJECTS" />
       </div>
     );
   }

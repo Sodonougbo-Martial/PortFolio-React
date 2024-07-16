@@ -1,0 +1,19 @@
+
+
+.titleproject{
+    background-color: #041F31;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 20px;
+}
+
+.titleproject-p1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #BDEBEA;
+    margin: 0px;
+}

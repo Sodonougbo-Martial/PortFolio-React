@@ -25,6 +25,7 @@ function Realisation() {
       <div className="realisation">
         
 
+        <div className="realisation-section">
         <div className='realisation-content'>
             {realisation.map((project, index) => (
             <BoxProject
@@ -35,6 +36,7 @@ function Realisation() {
                 description={project.description}
             />
             ))}
+        </div>
         </div>
       </div>
     );

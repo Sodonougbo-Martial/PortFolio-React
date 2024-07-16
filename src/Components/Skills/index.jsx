@@ -72,12 +72,14 @@ function Skills() {
   
     return (
       <div className="container-skill">
-        <p className="skill-p1">Skills</p>
-        <div className="skills">
-            
-            {defaultSkills.map((skill, index) => (
-            <Skill key={index} image={skill.image} description={skill.description} />
-            ))}
+        <div className="container2-skill">
+            <p className="skill-p1">Skills</p>
+            <div className="skills">
+                
+                {defaultSkills.map((skill, index) => (
+                <Skill key={index} image={skill.image} description={skill.description} />
+                ))}
+            </div>
         </div>
       </div>
     );

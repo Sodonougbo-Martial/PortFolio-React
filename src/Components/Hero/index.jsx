@@ -8,6 +8,7 @@ import { FaArrowDownLong } from "react-icons/fa6";
 function Hero() {
   return (
     <div className="hero">
+      <div className="hero-section">
       <div className="hero-container1">
           <div className="hero-text">
                 <p className="hero-p1">WEB DEVELOPER</p>
@@ -29,6 +30,7 @@ function Hero() {
 
       <div className="hero-conaiter2">
         <FaArrowDownLong style={{ color: 'white' }}/>
+      </div>
       </div>
         
 

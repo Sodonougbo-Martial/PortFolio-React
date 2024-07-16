@@ -1,8 +1,7 @@
 
 .custom-button {
     width: fit-content;
-    top: 27px;
-    left: 1139px;
+    
     padding: 12px 20px 13px 20px;
     gap: 10px;
     border-radius: 6px;
@@ -14,11 +13,13 @@
     font-weight: 500;
     line-height: 19.5px;
     text-align: center;
-
-
   }
   
   .custom-button:hover {
     background-color: #45a049;
   }
   
+
+  @media screen and (max-width: 600px){
+
+  }

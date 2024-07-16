@@ -13,10 +13,10 @@ function Navbar() {
 
       <ul className="nav-links">
         <li>
-          <Link to="../Page/Projects"> Projects </Link>
+          <Link to="/projects"> Projects </Link>
         </li>
         <li>
-          <Button className='hero-button' text="Contact Me" />
+          <Link to="/contact"><Button className='hero-button' text="Contact Me" /></Link>
         </li>
       </ul>
     </nav>

@@ -17,3 +17,20 @@
     color: #BDEBEA;
     margin: 0px;
 }
+
+
+@media screen and (max-width: 600px){
+
+    .titleproject{
+        width: 100%;
+        padding: 0;
+    }
+
+    .titleproject-p1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        text-align: left;
+    }
+}

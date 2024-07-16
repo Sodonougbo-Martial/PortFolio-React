@@ -16,3 +16,20 @@ text-align: center;
 margin: auto;
 
 }
+
+
+@media screen and (max-width: 600px){
+
+    .see-all{
+        width: 100%;
+        padding: 0;
+    }
+
+    .btn-see-all{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: center;
+
+    }
+}

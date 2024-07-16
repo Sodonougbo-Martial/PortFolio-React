@@ -1,9 +1,7 @@
 
 import React from 'react';
 import './styles.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Button from '../../Button';
-import Navbar from '../../Header'
 
 
 
@@ -13,14 +11,6 @@ function Contact() {
   return (
 
     <div className="contact">
-              <Router>
-              <Navbar />
-                <Routes>
-                  
-                  <Route path="/contact" component={Contact} />
-                </Routes>
-              </Router>
-              
 
     <div className='contact-container1'>
             <form>

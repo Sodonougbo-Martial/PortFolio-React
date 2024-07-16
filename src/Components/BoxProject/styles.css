@@ -60,3 +60,47 @@
     gap: 20px;
     
 }
+
+
+@media screen and (max-width: 600px){
+    .project{
+        width: 100%;
+    }
+
+    .project-title{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.38px;
+        text-align: left;
+
+    }
+
+    .project-category-btn{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.12em;
+        text-align: center;
+    }
+
+    .project-description{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
+    }
+
+    
+
+    .project-image{
+        width: 100%;
+    }
+
+    .project-containe-category{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px;
+    }
+
+}

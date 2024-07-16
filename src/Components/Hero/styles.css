@@ -95,4 +95,8 @@ color: #BDEBEA;
     .hero-section{
         padding: 20px;
     }
+
+    .hero-conaiter2{
+        display: none;
+    }
 }

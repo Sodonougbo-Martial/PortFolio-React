@@ -10,7 +10,7 @@ import Projects from './Components/Page/Projects';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Header />
         <Routes>
           <Route path="/" exact element={<Home/> } />
@@ -18,7 +18,6 @@ function App() {
           <Route path="contact" element={<Contact/>} />
         </Routes>
       </Router>
-
     </div>
   );
 }

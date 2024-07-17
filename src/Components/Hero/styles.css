@@ -51,7 +51,7 @@ color: #BDEBEA;
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .hero{
         width: 100%;
         display: flex;

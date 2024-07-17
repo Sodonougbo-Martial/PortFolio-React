@@ -10,7 +10,7 @@ import Projects from './Components/Page/Projects';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header />
         <Routes>
           <Route path="/" exact element={<Home/> } />

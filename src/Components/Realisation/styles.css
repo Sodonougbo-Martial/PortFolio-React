@@ -48,3 +48,18 @@
         padding: 20px;
     }
 }
+
+@media screen and (max-width: 900px){
+    .realisation{
+        width: 100%;
+        padding: 0;
+    }
+
+    .realisation-content{
+        display: flex;
+    }
+
+    .realisation-section{
+        padding: 20px;
+    }
+}

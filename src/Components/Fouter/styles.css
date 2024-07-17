@@ -54,7 +54,7 @@ color: #BDEBEA;
     gap: 25px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .container-Fouter{
         width: 100%;
         padding: 0px;

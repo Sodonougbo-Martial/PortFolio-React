@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: 0px;
     background-color: #041F31;
     padding-top: 30px;
 }
@@ -18,34 +17,34 @@
 
 .Fouter p{
     font-family: 'Montserrat';
-font-size: 12px;
-font-weight: 400;
-line-height: 11.11px;
-letter-spacing: 0.12em;
-text-align: center;
-color: #BDEBEA;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 11.11px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #BDEBEA;
 
 }
 
 .container2-Fouter p{
 
     font-family: 'Montserrat';
-font-size: 14px;
-font-weight: 400;
-line-height: 17.07px;
-text-align: left;
-color: #BDEBEA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color: #BDEBEA;
 
 }
 
 .container-Fouter-p1{
     font-family: 'Montserrat';
-font-size: 14px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0.04em;
-text-align: center;
-color: #BDEBEA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #BDEBEA;
 
 }
 

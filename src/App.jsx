@@ -6,16 +6,15 @@ import Home from './Components/Page/Home';
 import Contact from './Components/Page/Contact';
 import Projects from './Components/Page/Projects';
 
-
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
         <Routes>
-          <Route path="/" exact element={<Home/> } />
-          <Route path="projects" element={<Projects/>} />
-          <Route path="contact" element={<Contact/>} />
+          <Route path="/" exact element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

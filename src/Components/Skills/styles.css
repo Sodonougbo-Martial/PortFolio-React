@@ -42,6 +42,12 @@
 
   }
 
+  .skill-image{
+    width: 85.04px;
+    height: 88.36px;
+    left: 1.66px;
+}
+
   @media screen and (max-width: 900px){
     .container-skill{
       width: 100%;

@@ -25,11 +25,11 @@ function Skill({ image, description }) {
 function Skills() {
     const defaultSkills = [
       {
-        image: './assets/docker.svg',
+        image: './assets/docker.webp',
         description: 'Docker',
       },
       {
-        image: './assets/express.svg',
+        image: './assets/express.webp',
         description: 'Express',
       },
       {
@@ -53,19 +53,19 @@ function Skills() {
         description: 'Postgresql',
       },
       {
-        image: './assets/react-native.svg',
+        image: './assets/react-native.webp',
         description: 'React Native',
       },
       {
-        image: './assets/react.svg',
+        image: './assets/react.webp',
         description: 'React',
       },
       {
-        image: './assets/style-comp.svg',
+        image: './assets/style-comp.webp',
         description: 'Styled Components',
       },
       {
-        image: './assets/TP.svg',
+        image: './assets/TP.webp',
         description: 'Type Script',
       },
     ];
